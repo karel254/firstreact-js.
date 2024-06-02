@@ -1,0 +1,69 @@
+#team{
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.teamTittle{
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 3rem;
+    margin-bottom:1.5rem;
+}
+
+.teamDesc{
+    font-size: 1rem;
+    font-weight: 400;
+    max-width: 60rem;
+    padding: 0 2rem;
+}
+
+.teamBars{
+    margin: 1.5rem;
+    width: 100vw;
+    max-width:80%;
+    text-align:left;
+}
+
+.teamBar{
+    
+    margin: 2rem;
+    
+    border-radius: 0.5rem;
+    background: black;
+}
+.teamBarImg{
+    object-fit: contain;
+    height:10%;
+    width: 10%;
+    margin: 2rem;
+}
+.teamBarText>h2{
+    color: aqua;
+}
+  
+
+.teamBarText>p{
+    font-size: 1rem;
+    font-weight: 300;
+
+    
+}
+@media screen and (max-width: 768px) {
+    .teamBarText>p{
+        font-size: 6vw;
+            
+    }
+    
+    .teamBarText>h2{
+        font-size: 5vw;
+            
+    }
+}

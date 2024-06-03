@@ -5,7 +5,7 @@ import contactImg from "../../assets/contacts logo.jpg";
 import { Link } from 'react-scroll';
 import menu from '../../assets/Menub.gif'
 
-const Navbar = () => {
+export default function Navbar(){
   const [showMenu, setShowMenu] = useState(false);
   return (
   <nav className="navbar">
@@ -31,4 +31,4 @@ const Navbar = () => {
 </nav>)
 }
 
-export default Navbar;
+

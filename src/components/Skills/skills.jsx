@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css';   
-const Skills = () => {
+function Skills() {
   return (
    <section id='skills'>
     <span className="skillTittle">About Us</span>

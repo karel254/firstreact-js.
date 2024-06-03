@@ -3,7 +3,7 @@ import './team.css';
 import Ceo from '../../assets/CeoDaltech.jpg';   
 import DCeo from '../../assets/DeputyDaltech.jpg';  
 import Staff from '../../assets/Daltechstaff.jpg';  
-const Team = () => {
+function Team() {
   return (
    <section id='team'>
     <span className="teamTittle">Meet Our Team</span>

@@ -3,7 +3,7 @@ import './intro.css';
 import bg from '../../assets/Dalle.jpg';
 import btnImg from '../../assets/work.png';
 import { Link } from 'react-scroll';
-const Intro = () => {
+function Intro() {
   return (
    <section id="intro">
     <div className="introContent">

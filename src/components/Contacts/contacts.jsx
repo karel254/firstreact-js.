@@ -3,7 +3,7 @@ import './contacts.css';
 import Whaimg from '../../assets/whatlog.png';
 import Out from '../../assets/microlog.png';
 import Offl from '../../assets/phonelog.png';
-const Contacts = () => {
+function Contacts(){
   return (
    <section id='contacts'>
     <span className="contactTittle">Our Contacts</span>

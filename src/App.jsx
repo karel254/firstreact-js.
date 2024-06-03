@@ -1,4 +1,4 @@
-import BaseRouter from "./components/Constants/Routes";
+import BaseRouter from "./Constants/Routes";
 
 function App() {
   return (

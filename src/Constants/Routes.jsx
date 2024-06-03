@@ -1,6 +1,6 @@
 import React, {Suspense} from "react";
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
-import {appLinks} from "./Links";
+import {appLinks} from "./links";
 import Navbar from "./components/NavBar/navbar";
 
 const Intro = React.lazy(() => import("./components/Intro/intro"));

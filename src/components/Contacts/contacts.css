@@ -47,7 +47,7 @@
 }
 
 .contactBarText>p{
-    font-size: 2rem;
+    font-size: 4rem;
     font-weight: 300;
     text-align: center;
     justify-content: center;
@@ -55,7 +55,7 @@
 }
 @media screen and (max-width: 768px) {
     .contactBarText>p{
-        font-size: 3vw;
+        font-size: 2vw;
         object-fit: contain;
             
     }
